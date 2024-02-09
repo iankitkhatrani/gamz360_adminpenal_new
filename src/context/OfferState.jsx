@@ -443,8 +443,8 @@ const OfferState = (props) => {
 
     const BlackWhiteGameHistory = async () => {
         try {
-            console.log("PlayerList :::::::", `${host}/admin/games/blackwhitegamehistory`)
-            const response = await fetch(`${host}/admin/games/blackwhitegamehistory`, {
+            console.log("PlayerList :::::::", `${host}/admin/games/rummyGameHistory`)
+            const response = await fetch(`${host}/admin/games/rummyGameHistory`, {
                 method: 'GET',
                 headers: {
                     'Accept': 'application/json',
